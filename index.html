@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Next Generation Product - Waitlist</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header class="hero-section">
+            <h1 class="hero-title">The Next Generation Product</h1>
+            <p class="hero-subtitle">
+                Join the waitlist to be among the first to experience our revolutionary product
+                that will change the way you work.
+            </p>
+            
+            <form id="waitlist-form" class="waitlist-form">
+                <div class="form-group">
+                    <input 
+                        type="email" 
+                        id="email" 
+                        placeholder="Enter your email" 
+                        required
+                        class="email-input"
+                    >
+                    <button type="submit" class="join-btn">
+                        Join Waitlist
+                        <span class="arrow">→</span>
+                    </button>
+                </div>
+            </form>
+        </header>
+
+        <section class="features-section">
+            <div class="feature-card">
+                <div class="feature-icon">🚀</div>
+                <h3 class="feature-title">Lightning Fast</h3>
+                <p class="feature-description">
+                    Experience unprecedented speed and efficiency in your workflow.
+                </p>
+            </div>
+            
+            <div class="feature-card">
+                <div class="feature-icon">🛡️</div>
+                <h3 class="feature-title">Secure by Design</h3>
+                <p class="feature-description">
+                    Built with security in mind to protect your valuable data.
+                </p>
+            </div>
+            
+            <div class="feature-card">
+                <div class="feature-icon">⚡</div>
+                <h3 class="feature-title">Powerful Features</h3>
+                <p class="feature-description">
+                    Advanced capabilities that adapt to your needs.
+                </p>
+            </div>
+        </section>
+    </div>
+
+    <!-- Success Modal -->
+    <div id="success-modal" class="modal">
+        <div class="modal-content">
+            <h2>Success!</h2>
+            <p>You've been added to the waitlist.</p>
+            <button id="close-modal" class="close-btn">Close</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
