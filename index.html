@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Next Generation Product</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header class="hero">
+            <h1>The Next Generation Product</h1>
+            <p class="hero-subtitle">Join the waitlist to be among the first to experience our revolutionary product that will change the way you work.</p>
+            
+            <div class="waitlist-form">
+                <input type="email" id="email" placeholder="Enter your email" required>
+                <button type="button" id="join-btn" onclick="joinWaitlist()">
+                    Join Waitlist <i class="fas fa-arrow-right"></i>
+                </button>
+            </div>
+            
+            <div id="success-message" class="success-message hidden">
+                <div class="success-content">
+                    <h3>Success!</h3>
+                    <p>You've been added to the waitlist.</p>
+                </div>
+            </div>
+        </header>
+
+        <section class="features">
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <i class="fas fa-rocket"></i>
+                </div>
+                <h3>Lightning Fast</h3>
+                <p>Experience unprecedented speed and efficiency in your workflow.</p>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <i class="fas fa-shield-alt"></i>
+                </div>
+                <h3>Secure by Design</h3>
+                <p>Built with security in mind to protect your valuable data.</p>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <i class="fas fa-bolt"></i>
+                </div>
+                <h3>Powerful Features</h3>
+                <p>Advanced capabilities that adapt to your needs.</p>
+            </div>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
