@@ -1,0 +1,8 @@
+# Python requirements for Instant Model Monetization Schema
+# Install with: pip install -r requirements.txt
+
+# For API integration examples
+requests>=2.28.0
+
+# No other dependencies required! 
+# Like instant ramen noodles - minimal ingredients, maximum satisfaction! 🍜
